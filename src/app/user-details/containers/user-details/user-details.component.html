@@ -1,0 +1,33 @@
+<h3>User Details - {{user.name}} </h3>
+<div class="details">
+  <div class="card">
+    <div class="group">
+      <span class="label">Name</span>
+      <span class="value">{{ user.name }}</span>
+    </div>
+    <div class="group">
+      <span class="label">Email</span>
+      <span class="value">{{user.email}}</span>
+    </div>
+    <div class="group">
+      <span class="label">Phone</span>
+      <span class="value">{{user.phone}}</span>
+    </div>
+    <div class="group">
+      <span class="label">Website</span>
+      <span class="value">{{ user.website }}</span>
+    </div>
+
+    <div class="group">
+        <span class="label">company</span>
+        <span class="value">{{ user.company.name }}</span>
+      </div>
+
+      <div class="address">
+          <span class="label">address</span>
+          <span class="value">{{ user.address.street }}</span>
+          <span class="value">{{ user.address.suite }}</span>
+        </div>
+
+  </div>
+</div>

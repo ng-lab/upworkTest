@@ -1,0 +1,26 @@
+<div class="card" (click)="goToDetails(user.id)">
+    <div class="avatar">
+        <img [src]="'assets/messi.jpeg'" alt="">
+    </div>
+
+    <div class="details">
+        <div class="group">
+
+            <span class="label">Name</span>
+            <span class="value">{{ user.name }}</span>
+          </div>
+          <div class="group">
+            <span class="label">Email</span>
+            <span class="value">{{user.email}}</span>
+          </div>
+          <div class="group">
+            <span class="label">Phone</span>
+            <span class="value">{{user.phone}}</span>
+          </div>
+          <div class="group">
+            <span class="label">Website</span>
+            <span class="value">{{ user.website }}</span>
+          </div>
+    </div>
+
+</div>

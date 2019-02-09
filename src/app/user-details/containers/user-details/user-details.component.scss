@@ -1,0 +1,13 @@
+.card {
+  display: flex;
+  border: 1px solid #e3e3e3;
+  width: 400px;
+  margin-bottom: 2rem;
+  cursor: pointer;
+  flex-flow: column wrap;
+}
+
+.label {
+  font-weight: bold;
+  margin-right: 5px;
+}
